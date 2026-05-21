@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(58, 1, 119);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+.card{
+    background-color: rgb(4, 192, 192);
+    color: aliceblue;
+
+    padding: 7% ;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    vertical-align: top;
+    height:30rem;   
+}
+.card2 {
+    background-color: white;
+
+    padding: 7%;
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    height:30rem;
+}
+.card2 input,textarea{
+    background-color: rgb(226, 224, 224);
+    padding: 3%;
+    color: gray;
+    border: 0;
+    display: block;
+    margin: 5%;
+    width: 90%;
+    font-size: 1rem;
+}
+.card2 button{
+    background-color: rgb(4, 192, 192);;
+    color: aliceblue;
+    border-radius: 50px;
+    border: 0;
+    padding: 3%;
+    width: 50%;
+    font-size: 1.5rem;
+}
+.all{
+    padding: 5%;
+    align-items: center;
+    
+}
+
+
+
