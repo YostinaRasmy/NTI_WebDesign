@@ -1,0 +1,292 @@
+/* reset */
+ul{
+    list-style: none;
+    padding-left: 0%;
+}
+button{
+    border:none;
+}
+input{
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* global */
+*{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 500;
+    /* font-style: normal; */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-color: blanchedalmond; */
+}
+.font-big{
+    font-size: 360%;
+    
+}
+.font-biger{
+    font-size: 900%;
+    
+}
+.font-mid{
+    font-size: 250%;
+}
+.bg-white{
+    background-color: white;
+}
+.bg-img{
+    background-image: url(../img/Apartment.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 84%;
+    height: 35rem;
+}
+.container{
+    margin: 0% 10% 5% 10%;
+    padding-top: 2%;
+}
+.container-1{
+    margin: 0% 10% 1% 10%;
+    padding-top: 2%;
+}
+.d-flex{
+    display: flex;
+}
+.text-big{
+    text-transform: capitalize;
+}
+.list-space{
+    margin-right: 4%;
+}
+.v-text{
+    writing-mode:sideways-lr;
+}
+
+.bt-white{
+    background-color: white; 
+}
+.bt-radius{
+    border-radius: 5%;
+}
+.bt-yellow{
+    background-color: rgb(246, 191, 72); 
+}
+.bt-width-s{
+    width: 10%;
+}
+.bt-width{
+    width: 20%;
+}
+.bt-rad-2side{
+     border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+.bt-margin{
+    margin: 4% 1%;
+}
+.end{
+    width: 22%;
+    justify-content: end;
+}
+.center{
+    justify-content: center;
+}
+.sticky{
+    position: sticky;
+    top: 0rem;
+    z-index: 5;
+}
+a:hover{
+    color: rgb(248, 187, 55);
+}
+a i:hover{
+    color: rgb(248, 187, 55);
+   
+}
+button:hover{
+    background-color: rgb(171, 117, 1);
+}
+.text-gray{
+    color: rgb(101, 101, 101);
+}
+.text-l-gray{
+    color: rgb(146, 145, 145);
+}
+.gap-s{
+    gap: 1rem;  
+}
+.gap-b{
+    gap: 7rem;
+}
+.width30{
+    width: 30%;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.434);
+    width: 100%;
+    height: 99%;
+    top: 0;
+    left: 0;
+}
+.hov-div{
+    opacity: 0;
+}
+.hov-div:hover{
+    opacity: 1;
+}
+.search-div{
+    padding: 2%;
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    box-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.20);
+}
+.s-margin{
+    margin-bottom: 5%;
+}
+.text-white{
+    color: white;
+}
+.m-icon{
+    margin-top: 5%;
+    margin-right: 1%;
+    margin-left: 4%;
+}
+.v-div{
+    bottom: 5%;  
+}
+.m-v-icon{
+    margin: 20% 0% 0% 35%;   
+}
+.fly-sec{ 
+    width: 40%;
+    bottom: 0%;
+    right: 0%;
+    padding: 1.5%;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.bg-gray{
+    background-color: rgb(234, 231, 231); 
+}
+.card{
+    box-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.20);
+    margin: 2% 2% 2% 0%;
+    height: 19%;
+    width: 30%;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.card-img{
+    width: 100%;
+    /* size: 285px 328px; */
+}
+.padding{
+    padding: 4%;
+}
+.text-yellow{
+    color: rgb(248, 187, 55);
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.margin-bet{
+    margin-right: 20%;
+}
+.margin-top{
+    margin-top: 4%;
+}
+.width{
+    width: 60%;
+}
+.width40{
+    width: 40%;
+}
+.width50{
+    width: 50%;
+}
+.width100{
+    width: 100%;
+}
+.w-b-mar{
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-bottom: 10%;
+    padding: 4% 8%;
+}
+.middle{
+    padding-top: 3%;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.b-padding{
+    padding-left: 17.5% ;
+    padding-right: 2%;
+    padding-bottom: 10%;
+}
+.overflow{
+  overflow: hidden;
+  height: 6rem;
+}
+.overflow h1{
+    margin: 0%;
+    bottom: -1rem;
+    left: -1.7rem;
+}
+.padding-p-s{
+    padding: 4% 0% 0% 7%;
+}
+.padding-ser{
+    padding: 2% 0% 5% 0%;
+}
+.side-div{
+    right: 0%;
+}
+.bg2-img{
+    background-image: url(../img/download.jpg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-size: 50%;
+    height: 40rem;
+}
+.text-r{
+    text-align: right;
+}
+.fly-sec2{
+  bottom: -7%;
+   right: 25%;
+   justify-content: center;
+   z-index: 1;
+}
+.icon-ls{
+    padding: 6% 0% 5% 0%;
+}
+.padding-t-b{
+    padding: 2% 0% 2% 0%;
+}
+.fly-sec3{
+  bottom: -7%;
+   right: -8%;
+   justify-content: center;
+   z-index: 1;
+}
+.bg-navy{
+    background-color: rgb(3, 18, 62);
+}
+.padding-r{
+    padding-right: 7%;
+}
+
+/* custom */
