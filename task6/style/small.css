@@ -1,0 +1,119 @@
+@media(max-width: 390px){
+    *{
+        font-size: small;
+    }
+    .container{
+    margin: 0% 5% 2% 5%;
+    box-sizing:content-box;
+    }
+    .big-screen{
+        display: none;
+    }
+    .d-flex{
+        display: flex;
+        /* flex-wrap: wrap; */
+    }
+    .width{
+        width: 100%;
+    }
+    .wrap{
+        flex-wrap: wrap;
+    }
+    #f-sec{
+        background-size: 190% 115%;
+    }
+    #f-list{
+        display: none;
+    }
+    #f-button{
+        display: none;
+    }
+    #f-h-p{
+        width: 95%;
+    }
+    .h1{
+        font-size: 250%;
+    }
+    #search1{
+        display: none;
+    }
+    #search-icon{
+        display: contents;
+    }
+    #sec2-h{
+        width: 100%;
+    }
+    #sec2-container{
+        border: none;
+        margin: 0%;
+        flex-wrap: wrap;
+    }
+    .h2{
+        font-size: 120%;
+    }
+    #search-div{
+        display: none;
+    }
+    #s-list{
+        justify-content: left;
+        li{
+            padding-right: 10%;
+        }
+    }
+    #screen-search{
+
+    }
+    #button-s-list{
+        width: 26%;
+        
+    }
+    #div-img{
+        flex-wrap: wrap;
+    }
+    #img-3{
+        display: none;
+    }
+    .width94{
+        width: 98%;
+    }
+    #sec4-form{
+        flex-direction: column-reverse;
+    }
+    form{
+        box-sizing: border-box;
+        margin: 4% 0% 5% 0%; 
+        padding: 9%;
+    }
+    form > div{
+        width: 95%;
+    }
+    #footer-sec1{
+        display: inline-block;
+        div{
+            width: 100%;
+        }
+    }
+    #email-2{
+        width: 95%;
+        box-sizing: border-box;
+        margin-bottom: 3%;
+        justify-items: center;
+        border: none;
+    }
+    #button-last{
+        width: 95%;
+        box-sizing: border-box;
+    }
+    .width-40{
+        width: 40%;
+    }
+    #last{
+        display: inline-block;
+        text-align: center;
+        margin-left: 15%;
+    }
+    .ss-p{
+        display: contents;
+    }
+
+}
