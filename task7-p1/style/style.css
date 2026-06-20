@@ -1,0 +1,109 @@
+/* reset */
+
+/* glopal */
+.container{
+    box-sizing: border-box;
+    margin: 5% 10% 5% 10%;
+}
+.d-flex{
+    display: flex;
+}
+.p{
+    color: rgb(48, 47, 47);
+}
+.card{
+    width: 25%;
+    padding: 2%;
+    background-color: rgb(223, 249, 242);
+    transition: 1s;
+    border-radius: 0.5rem;
+}
+.space-between{
+    justify-content: space-between;
+}
+.card1:hover{
+    color: white;
+    p{
+        color: white;
+            transition: 1s;
+    }
+
+}
+.card1:hover .over{
+    transform:scale(5);
+}
+.overflow{
+    overflow: hidden;
+    /* height: 100%; */
+    /* bottom: 10%; */
+    /* left: -7rem; */
+}
+.trans{
+    transition: 2s;
+
+}
+.over{
+    width: 5rem;
+    aspect-ratio: 1/1;
+    background-color: rgb(2, 125, 125); 
+    border-radius: 50%;
+    bottom: 70%;
+    left: 70%;
+}
+.width100{
+    width: 100%;
+}
+.relative{
+    position:relative;
+}
+.absolute{
+    position: absolute;
+}
+.icon{
+    top: 2%;
+    right: 2%;
+}
+.icon-2{
+    top: 2%;
+    left: 2%;
+}
+.card2:hover{
+    transform: translateY(3%);
+    background-color: white;
+    box-shadow: 0px 0px 5px 3px gray;
+
+}
+.card3:hover{
+    transition: 2s;
+    border: solid 2px rgb(2, 104, 104);
+    /* box-shadow: 0px 0px 5px 3px rgb(2, 104, 104); */
+    p{color: rgb(1, 96, 96);}
+}
+.center{
+    margin-top: 20%;
+    margin-left: 37%;
+}
+.card4{
+    border: solid 1px gray;
+    background-color: white;
+}
+.over2{
+    background-color: rgb(174, 14, 110);
+    height: 200%;
+    width: 100%;
+    top: 0%;
+    left: 100%;
+}
+.card4:hover .over2{
+    transition: 1s;
+    transform: skewX(10deg);
+}
+.card4:hover{
+    border: solid 1px rgb(174, 14, 110);
+}
+.text-white , i{
+    color: white;
+}
+.black{
+    color: black;
+}

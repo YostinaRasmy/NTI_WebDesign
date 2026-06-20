@@ -1,0 +1,83 @@
+/* reset */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* globle */
+body{
+    background-color: rgb(0, 22, 32);
+}
+.container{
+    margin: 10% 10% 10% 10%;
+    box-sizing: border-box;
+}
+.d-flex{
+    display: flex;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.overflow{
+    overflow: hidden;
+}
+
+
+.center{
+    justify-content: center;
+}
+.bg-img{
+    background-image: url(../img/download\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter:opacity(0.5) ;
+}
+.card{
+    width: 30%;
+    aspect-ratio: 1/1;
+    padding: 0% 2% 2% 2%;
+}
+.card2{
+    background-color: white;
+    top: 75%;
+    transition: 1s;
+}
+.text-cap{
+    text-transform:uppercase;
+}
+.text-gray{
+    color: rgb(71, 71, 71);
+}
+.text-w{
+    font-weight: 200;
+}
+.text-aqua{
+    color: rgb(3, 119, 119);
+}
+hr{
+    width: 50%;
+    margin-left: 0%;
+}
+.margin{
+    margin-top: 20%;
+}
+.width{
+    width: 90%;
+}
+.space-between{
+    justify-content: space-between;
+}
+.icon{
+    padding-top: 90%;
+}
+/* .trans{
+    transition: 2s;
+} */
+.cards:hover{
+    .card2{
+        top: 0%;
+        bottom: 0%;
+    }
+}
