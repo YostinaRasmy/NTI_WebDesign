@@ -1,0 +1,101 @@
+.bg-img{
+    background-image: url(../img/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: none;
+}
+.cards:hover{
+    background-color: #198754;
+    color: white;
+}
+.cards:hover .text-success{
+    color: white !important;
+}
+/*  */
+.box:hover .text-success{
+    color: white !important;
+}
+.box:hover{
+    color: white;
+    background-color: #198754;
+}
+/* card  h*/
+.card:hover .card-header{
+    background-color: white !important ;
+    color: #198754 !important;
+}
+.card:hover .card-header .btn{
+    background-color: #198754 !important ;
+    color: white !important;
+}
+.card:hover .card-header h3{
+    color: #198754 !important;
+}
+/* card b */
+.card:hover .card-body{
+    background-color: #198754 !important ;
+    color: rgb(255, 255, 255) !important;
+}
+.card:hover .card-body h2{
+    background-color: #198754 !important ;
+    color: rgb(255, 255, 255) !important;
+}
+.card:hover .card-body p{
+    background-color: #198754 !important ;
+    color: rgb(255, 255, 255) !important;
+}
+/* card b l */
+.card:hover .card-body .border-success{
+    border-bottom: white solid 2px !important;
+}
+.card:hover .card-body{
+    border-top: white solid 2px !important;
+}
+.card:hover .card-body *{
+    background-color: #198754!important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.card:hover .card-body .btn{
+    background-color: rgb(255, 255, 255) !important ;
+    color: #198754 !important;
+}
+
+
+.accordion-item:hover{
+    background-color: #198754!important;
+    color: rgb(255, 255, 255) !important;
+}
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: #198754;
+}
+.accordion-button:focus{
+  border-color: rgba(255, 255, 255, 0);
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control:focus {
+
+  border-color: white;
+
+  outline: 0;
+
+  box-shadow: 0 0 0 .25rem rgba(255, 255, 255, 0.25);
+}
+form input::placeholder{
+    color: white !important;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .w-50{
+        width: 100% !important;
+    }
+    .w-75{
+        width: 100% !important;
+    }
+}
